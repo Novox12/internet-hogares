@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Cronos Pro';
+	src: url('../fonts/Cronospro/CronosProBold.ttf'); /* IE9 Compat Modes */
+	src: url('../fonts/Cronospro/CronosProBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Cronospro/CronosProBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Cronospro/CronosProBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.counter-section {
+    background: #00377D;
+}
+
+.stat {
+	text-align: center;
+}
+
+.stat-count {
+	font-size: 51px;
+	font-weight: normal;
+    color: #FFFFFF;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
+	overflow: hidden;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	position: relative;
+}
+
+.stat-detail {
+	color:#fff;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-size: 2em;
+}
+
+.stat-plus {
+	font-size: 50px;
+}

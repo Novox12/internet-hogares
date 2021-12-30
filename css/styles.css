@@ -1,0 +1,1604 @@
+@font-face {
+	font-family: "Cronos Pro";
+
+	src: url("../fonts/Cronospro/CronosProBold.ttf"); /* IE9 Compat Modes */
+
+	src: url("../fonts/Cronospro/CronosProBold.eot?#iefix")
+		format("embedded-opentype"),
+		/* IE6-IE8 */ url("../fonts/Cronospro/CronosProBold.ttf") format("truetype"),
+		/* Safari, Android, iOS */
+		url("../fonts/Cronospro/CronosProBold.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0;
+	background: url("../images/brand-tigo.PNG");
+	background-size: contain;
+}
+
+/* ---------------------------------------- Header ---------------------------------------------------------- */
+
+.navbar {
+	width: 100%;
+	height: 100px;
+	background: #00377d;
+	padding-top: 11px !important;
+	padding-bottom: 5px !important;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: -webkit-transform 0.4s;
+	-o-transition: transform 0.4s;
+	transition: transform 0.4s;
+	transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.logo-tigo {
+	width: 70px;
+	height: 50px;
+}
+
+.info-logo-becall {
+	width: 35px;
+	height: 45px;
+}
+
+.label-info {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+.nav-link {
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-icon {
+	max-width: 100%;
+	height: 1.8rem;
+}
+
+.header-nav-text {
+	margin-top: 7px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+.nav-link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.nav-link-header {
+  	align-items: center;
+}
+
+.scroll-down .navbar {
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .navbar {
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+.scroll-up .navbar {
+  	background: #00377d;
+}
+
+.nav-phone {
+	font-weight: bold;
+	font-size: 1rem;
+	color: #004085;
+	background: #ffffff;
+	border-color: #ffffff;
+}
+
+.nav-phone:hover {
+  	color: #ffffff !important;
+}
+
+
+/* -----------------------------------------------------------------New banner ----------------------------------------------------------- */
+
+.main-new-banner-desktop{
+	margin-top: 100px;
+	width: 100%;
+	height: auto;
+}
+.main-new-banner-desktop img{
+	width: 100%;
+	height: auto;
+}
+
+.main-new-banner-desktop .main-section-new-banner{
+	width:100%;
+	height: 16%;
+	position: absolute;
+	z-index: 10;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.form-hogar {
+	margin-top: 45% !important;
+}
+
+.img-fulltigo {
+	width: 21% !important;
+	margin-left: 5% !important;
+}
+
+.form-full {
+	margin-left: 48% !important;	
+}
+
+.w-75-mobile {
+	width: 100%;
+	margin-top: 0px;
+	padding-right: 80px;
+}
+
+.main-new-banner-desktop .main-section-new-banner img{
+	width:61%;
+	margin-left: 11%;
+	margin-top: 3%;
+}
+.main-new-banner-desktop .main-section-new-banner form{
+	width:auto;
+	margin-left:25%;
+}
+
+.terminos {
+    width: 45%;
+	margin-left: 32px;
+}
+
+.text-space {
+	margin-top: -20px !important;
+}
+
+.w-75 {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: -10px !important;
+}
+
+.main-new-banner-desktop .new-banner-fulltigo img{
+	width:20%;
+	margin-top:1%;
+	margin-left: 3%;
+}
+
+
+/* ----------------------------------------------------------------- Desktop Form --------------------------------------------------------- */
+
+.tomadatos {
+	background-color: #004085;
+	border-radius: 20px;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 72.5%;
+}
+
+.title-tomadatos {
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 2.3em;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 0;
+	text-align: center;
+	animation:latidos 1500ms infinite;
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.06);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.sub-tomadatos {
+	color: #ffbe00;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 0rem;
+}
+
+.form-tomadatos {
+	padding: 25px;
+}
+
+a:hover {
+  	text-decoration: none;
+}
+
+.url {
+	text-align: left !important;
+}
+
+.main-form-top {
+	padding: 5px;
+	border-radius: 15px 15px 0px 0px !important;
+}
+
+.main-form-title {
+	color: #ffffff;
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 19px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+}
+
+.main-form-title-mobile {
+	color: #00377d;
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 1;
+	padding: 6px 0px;
+	margin-bottom: 0;
+}
+
+.main-form-container {
+  	padding-left: 20px;
+}
+
+.main-form-col {
+  	padding: 0;
+}
+
+.main-form-info {
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.main-form-line {
+	color: #00377d;
+	font-size: 0.9em;
+	font-weight: 700;
+	padding: 0;
+}
+
+.body-form {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.main-form-call {
+	margin: 5px;
+	color: white;
+}
+
+.main-form-div {
+  	margin-bottom: 5px;
+}
+
+.main-form-container-check {
+	font-size: 0.8em;
+	color: white;
+	margin-top: 5px;
+}
+
+.main-form-row-check {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.main-form-col-check {
+	padding: 0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.main-form-label-check {
+  	font-size: 0.8em;
+}
+
+.main-form-link-check {
+  	color: #ffbe00;
+}
+
+.main-form-link-check:hover {
+  	color: #ffffff;
+}
+
+.button-form {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: #004085;
+	background: #ffffff;
+	border-color: #ffffff;
+	border-radius: 20px;
+}
+
+.main-form {
+	background-color: #004085;
+	padding-bottom: 10px;
+	text-align: center;
+	z-index: 10;
+	box-shadow: 0 0 10px 0px black;
+	border-radius: 15px;
+	padding-top: 20px;
+	margin-top: 0rem;
+	margin-right: 1rem;
+}
+
+.main-form-fulltigo {
+	background-color: #004085;
+	padding-bottom: 10px;
+	text-align: center;
+	z-index: 10;
+	box-shadow: 0 0 10px 0px black;
+	border-radius: 15px;
+	padding-top: 20px;
+	margin-top: 8.2rem;
+	margin-right: 1rem;
+}
+
+.form-input {
+	border: 0 !important;
+	border-bottom: solid 1px #ffffff !important;
+	border-radius: 0px;
+	background: transparent;
+	color: #ffffff;
+}
+
+.form-input:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+	border-bottom: solid 1px #ffffff !important;
+	border-radius: 0px;
+	background: transparent;
+	color: #ffffff;
+}
+
+.form-input::-webkit-input-placeholder {
+  	color: #ffffff !important;
+}
+
+.form-input::-moz-placeholder {
+  	color: #ffffff !important;
+}
+
+.form-input:-ms-input-placeholder {
+  	color: #ffffff !important;
+}
+
+.form-input::-ms-input-placeholder {
+  	color: #ffffff !important;
+}
+
+.form-input::placeholder {
+  	color: #ffffff !important;
+}
+
+/* TYP */
+
+.main-form-typ {
+  	width: auto;
+}
+
+.title-typ {
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-size: 2.3em;
+}
+
+.text-typ {
+  	color: #ffffff;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+.tigo-message {
+  	color: #ffbe00;
+}
+
+.form-select {
+	background: transparent;
+	border: 0px !important;
+	border-radius: 0px !important;
+	border-bottom: solid 1px #ffffff !important;
+	color: #ffffff;
+}
+
+.form-select:focus {
+  	outline: none;
+}
+
+.form-select option {
+  	color: #000000;
+}
+
+.custom-select.is-invalid,
+.was-validated .custom-select:invalid {
+  	background-color: transparent !important;
+}
+
+/* --------------------------------------------------------------------------- Mobile Form --------------------------------------------------------------- */
+
+.form-mobile {
+	background-color: #0a316a;
+
+	text-align: center;
+
+	padding-bottom: 10px;
+}
+
+.mobile-form-top {
+	background-color: white;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+.col-mobile {
+ 	padding: 0px;
+}
+
+/* ------------------------------------------------------------------------- Modal Tyc Form ------------------------------------------------------------ */
+
+.modal-tyc-form {
+  	z-index: 10000;
+}
+
+.modal-tyc {
+  	border-radius: 8px !important;
+}
+
+.modal-open {
+  	position: fixed;
+}
+
+/* ------------------------------------------------------------------------ Modal Home ---------------------------------------------------------- */
+
+.modal-home-form {
+	margin-top: -27px;
+	margin-bottom: -12px;
+}
+
+/* ------------------------------------------------------------------------- Main Section ------------------------------------------------------ */
+
+.sec-principal-hogar {
+	background-image: url("../static/images/banners/main-image-oct.webp");
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+	width: 2560px;
+	text-align: center;
+}
+
+.sec-principal-hogar-mobile {
+	background-image: url("../static/images/banners/main-image-oct.webp");
+	background-size: cover;
+	background-position-x: center;
+	max-width: 100%;
+	height: auto;
+	width: 2560px;
+	text-align: center;
+}
+
+.sec-principal-movil {
+	background-image: url("../static/images/banners/BANNER-MOVIL-KV.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.sec-principal-movil-mobile {
+	background-image: url("../static/images/banners/BANNER-CELULAR-KV.jpg");
+	background-size: cover;
+	background-position-y: -50px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.sec-principal-fulltigo {
+	background-image: url("../static/images/banners/BANNER-CELULAR-FULL-TIGO.jpg");
+	background-size: cover;
+	/* background-position-x: center; */
+	background-position-y: -50px;
+
+	width: 100%;
+	height: auto;
+
+	text-align: center;
+}
+
+
+.main-new-container-fulltigo{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.main-new-container-fulltigo img{
+	width: 100%;
+	height: auto;
+}
+.main-new-container-fulltigo .new-banner-container{
+	position: absolute;
+	height:100%;
+	width: 100%;
+	display:flex;
+}
+.main-new-container-fulltigo .new-banner-container div div img{
+	width: 50%;
+	margin-top: 2%;
+	margin-left:10%;
+}
+.main-new-container-fulltigo .new-banner-container div form{
+	width: 80% !important;
+	height: auto !important;
+	margin-top: 2% !important;
+	margin-right:10% !important;
+	font-size:14px!important;
+	padding:0 !important;
+}
+
+
+
+.sec-principal-fulltigo-mobile {
+	background-image: url("../static/images/banners/BANNER-CELULAR-FULL-TIGO.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	
+}
+
+.cuentaRegresiva-titulo {
+	text-align: center;
+	color: #ffb400;
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.cuentaRegresiva-clock {
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.cuentaRegresiva {
+	margin-top: 8rem;
+}
+
+.KV-Desktop-container-div {
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.KV-Desktop {
+	margin-top: 12rem;
+	max-width: 100%;
+    width: 22em;
+}
+
+.kv-fulltigo {
+  	margin-top: 8rem;
+}
+
+.KV-Desktop-hogar-mobile {
+	margin-top: 1rem;
+    max-width: 100%;
+    width: 20em;
+}
+
+.KV-movil-Desktop {
+	margin-top: 15rem;
+	padding: 9rem 0px;
+	max-width: 100%;
+	height: auto;
+	width: 28em;
+}
+
+.KV-movil-Desktop-mobile {
+	max-width: 100%;
+	height: auto;
+	width: 28em;
+	padding-top: 10rem;
+	padding-bottom: 3rem;
+}
+
+.TyC-contfluid {
+  	background-color: #01184c;
+}
+
+.TyC-col {
+  	text-align: center;
+}
+
+.TyC-label {
+	color: white;
+	font-weight: 500;
+	font-size: 0.54rem;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.TyC-label-hogar-mobile {
+	color: white;
+	font-weight: 500;
+	font-size: 0.54rem;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.modal-body-legales {
+  	padding: 20px;
+}
+
+.Planes-card-titulo {
+	font-weight: 700;
+	color: #002c69;
+	margin: 0;
+	font-family: "Cronos Pro";
+}
+
+.Planes-card-small {
+	color: #002c69;
+	font-family: "Cronos Pro";
+}
+
+.main-section {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.main-image {
+	margin-top: 90px !important;
+	background-size: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
+}
+
+/* ------------------------------------------------------------------ Tabs ------------------------------------------------------------------------------ */
+.btn-tabs-media{
+	margin: 25px 0px;
+}
+
+
+.leyendas-tabs{
+	font-size: .6875rem!important;
+}
+
+.tab {
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.8em;
+	overflow: hidden;
+	color: #0a316a;
+}
+
+.space {
+  	margin: 10px;
+}
+
+.tab button {
+	margin-top: 5%;
+	color: #0a316a;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 2px #0a316a;
+	border-radius: 20px;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.tab button:hover {
+	background-color: #1350ac;
+	color: #ffffff;
+	border-radius: 45px;
+}
+
+.tab button.active {
+	margin-top: 5%;
+	border: 3px solid #0a316a;
+	border-radius: 40px;
+	background: #0a316a;
+	color: white;
+}
+
+.tabcontent {
+	display: none;
+	border-top: none;
+}
+
+.tab-new-user {
+  	display: block;
+}
+
+/* Key Visual */
+
+.key-visual {
+	max-width: 100%;
+	height: auto;
+	width: 23rem;
+}
+
+.kv-centered {
+  	margin-left: 5%;
+}
+
+/* ----- Mobile View ----- */
+
+.new-client {
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0a316a;
+}
+
+.span-color-yellow {
+  	color: #ffbe00;
+}
+
+.carousel-control-prev-icon {
+  	background-image: url("../static/images/tools/previous.png") !important;
+}
+
+.carousel-control-next-icon {
+  	background-image: url("../static/images/tools/next.png") !important;
+}
+
+.main-title-section {
+	color: #0a316a;
+	margin-bottom: -5px;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+}
+
+.main-title-section2 {
+	color: #ffbe00;
+	font-size: 2em;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	margin-bottom: -5px;
+}
+
+.main-title-section-fulltigo {
+	color: #0a316a;
+	font-size: 3em;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	margin-bottom: -5px;
+}
+
+.border-primary {
+	border-color: #dedede !important;
+	box-shadow: 0px 4px 5px -2px grey;
+}
+
+.card-clients {
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.card-home {
+	height: 100% !important;
+}
+
+/* ------------------------------------------------------- Card 15gb ------------------------------------- */
+
+.card-table {
+	margin-top: 15px;
+	text-align: left;
+	color: gray;
+	font-size: 0.95em;
+}
+
+.card-15gb {
+  	height: 59rem;
+}
+
+.card-fulltigo2 {
+  	height: 55rem;
+}
+
+.card-header {
+  	background-color: #ffffff !important;
+}
+
+.card-body-mobile {
+  	padding: 0em !important;
+}
+
+.content-text-card {
+	color: #0a316a;
+	margin: 15px 0px;
+	font-size: 1em;
+}
+
+.img-thumbnail {
+	border: none !important;
+	width: 64px;
+	height: 57px;
+	padding-top: 0px;
+}
+
+.car-duo-play {
+  	height: 1010px;
+}
+
+/* Movil */
+
+.card-unlimited {
+  	height: 1064px;
+}
+
+.list-group-item-mobile {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding-left: 0em !important;
+}
+
+/* Movil */
+
+.list-group-item {
+  	text-align: justify;
+	background-color: transparent;
+}
+
+.main-span {
+	color: #00000a;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+ul {
+  	list-style: none;
+}
+
+.carousel-cards {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.control-prev {
+  	left: -47px;
+}
+
+.control-next {
+  	right: -47px;
+}
+
+.title-mobile-client {
+	color: #0a316a;
+	font-weight: bold;
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+}
+
+.color-client-mobile {
+  	color: #0a316a;
+}
+
+.btn-services {
+  	margin-top: 22px;
+}
+
+.btn-upgrade {
+  	margin-top: 19px;
+}
+
+/* ----------------------------------------------------------------- Carousel 3D -------------------------------------------------------------------- */
+
+.dg-wrapper a img {
+  	padding: 0px !important;
+}
+
+.dg-container-kv nav {
+  	left: 51% !important;
+}
+
+/* ------------------------------------------------------------------------- Cards ---------------------------------------------------------------- */
+
+.new-card {
+	padding: 0px !important;
+	border-radius: 0px 20px 20px 0px !important;
+}
+
+.new-card-body {
+	padding: 20px !important;
+	padding-top: 40px !important;
+}
+
+.card-person {
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.card-header {
+	background-color: #ffffff !important;
+	padding: 0px;
+	padding-bottom: 1.25rem;
+}
+
+.content-text-card {
+	color: #686868;
+	margin: 7px 0px;
+	font-size: 1em;
+	font-family: cronos pro, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.img-thumbnail {
+	border: none !important;
+	width: 64px;
+	height: 57px;
+	padding-top: 0px;
+}
+
+.btn-primary {
+	background: #00c8ff;
+	border-color: #00c8ff;
+	border-radius: 20px;
+	font-weight: bold;
+	width: 60%;
+}
+
+/* Movil */
+
+.btn-movil {
+  	width: 100% !important;
+}
+
+/* Movil */
+
+.btn-primary:hover {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.btn-primary:active {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	-webkit-box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+}
+
+.btn-primary:focus {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	-webkit-box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+}
+
+.btn-primary:not(:hover) {
+	background: #00c8ff !important;
+	border-color: #00c8ff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* ------------------------------------------------------------------------------- Key Visual Mobile -------------------------------------------------- */
+
+.kv-mobile {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.container-kv-mobile {
+  	height: auto !important;
+}
+
+.container-kv-mobile nav {
+	left: 50% !important;
+	bottom: 54px !important;
+}
+
+/* ------------------------------------------------------------------------------- Services ----------------------------------------------------- */
+
+.card-services {
+  	border-radius: 15px;
+}
+
+.img-services {
+  	border-radius: 15px 15px 0px 0px;
+}
+
+.card-body {
+  	padding: 34px;
+}
+
+.card-title,
+.card-subtitle {
+  	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+}
+
+.card-services:hover {
+	-webkit-box-shadow: 0 0 10px 0px #00c8ff;
+	box-shadow: 0 0 10px 0px #00c8ff;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-outline-primary {
+	color: #00c8ff;
+	border-color: #00c8ff;
+	border-radius: 20px;
+	width: 40%;
+}
+
+.btn-outline-primary:hover {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	color: #ffffff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.btn-outline-primary:active {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	-webkit-box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	color: #ffffff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.btn-outline-primary:focus {
+	background: #ffbe00 !important;
+	border-color: #ffbe00 !important;
+	-webkit-box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	box-shadow: 0px 0px 0px 3px #ffbe00 !important;
+	color: #ffffff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* ---- Mobile ---- */
+
+.font-bols-primary {
+	color: #00377D;
+}
+
+.space {
+	line-height: 0.8;
+}
+
+.img-roaming {
+  	height: 128px;
+}
+
+.card-body-amazon {
+	padding-top: 34px;
+	padding-bottom: 36px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn-card-amazon {
+  	margin-top: 41px;
+}
+
+.card-services {
+	min-height: 95% !important;
+}
+
+.card-body-roaming {
+	padding-top: 34px;
+	padding-bottom: 34px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card-body-music {
+	padding-top: 24px;
+	padding-bottom: 34px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn-card-roaming {
+  	margin-top: 18px;
+}
+
+.card-body-x60 {
+  		padding: 34px 20px 34px 20px;
+}
+
+.card-amazon-x60 {
+  	padding-bottom: 39px;
+}
+
+.btn-card-amazon-x60 {
+  	margin-top: 46px;
+}
+
+/* -------------------------------------------------------------------------------- Modal Email --------------------------------------------------- */
+
+.img-modal-gmail {
+  	height: 376px;
+}
+
+.section-email {
+	margin-top: -26px !important;
+	margin-bottom: -23px;
+}
+
+/* ------------------------------------------------------------------------------- Secondary Section -------------------------------------------- */
+
+/* Modal */
+
+.modal-header {
+  	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+}
+
+.modal-title {
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+.modal-content {
+	border-radius: 25px;
+	-webkit-box-shadow: 0 0 10px 0px black;
+	box-shadow: 0 0 10px 0px black;
+	height: auto;
+}
+
+.modal-legal {
+	border-radius: 0.3rem;
+}
+
+.btn-dark {
+  	border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------------------- Form Modal ----------------------------------------------------- */
+
+.modal-input {
+	border: 0 !important;
+	border-bottom: 1px solid #004085 !important;
+	border-radius: 0px;
+	background: transparent;
+	color: #004085;
+}
+
+.modal-input:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+	border-bottom: solid 1px #004085 !important;
+	border-radius: 0px;
+	background: transparent;
+	color: #004085;
+}
+
+.modal-input::-webkit-input-placeholder {
+ 	color: #004085 !important;
+}
+
+.modal-input::-moz-placeholder {
+  	color: #004085 !important;
+}
+
+.modal-input:-ms-input-placeholder {
+  	color: #004085 !important;
+}
+
+.modal-input::-ms-input-placeholder {
+  	color: #004085 !important;
+}
+
+.modal-input::placeholder {
+  	color: #004085 !important;
+}
+
+.card-modal {
+  	border-radius: 20px;
+}
+
+.img-modal {
+  	border-radius: 20px 0px 0px 20px;
+}
+
+.col-to-call {
+	font-family: "Cronos Pro", Arial, Helvetica, sans-serif;
+	padding: 39px !important;
+}
+
+.modal-form-link-check {
+  	color: #ffbe00;
+}
+
+.modal-form-link-check:hover {
+  	color: #00c8ff;
+}
+
+.btn-modal {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: #ffffff;
+	background: #004085;
+	border-color: #004085;
+	border-radius: 20px;
+}
+
+.btn-modal-close {
+	margin-left: 90%;
+	margin-top: 8px;
+	float: left;
+	position: absolute;
+	z-index: 10000;
+}
+
+.clickable {
+  	cursor: pointer;
+}
+/* -------------------------final card --------------------------------- */
+
+.final{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:0;
+}
+
+/* ----------------------------------------------------------------------------- Floating Button ------------------------------------------------ */
+
+.gif-phone {
+	background-color: transparent;
+	border: none;
+	position: fixed;
+	max-width: 80% !important;
+	width: 5rem;
+	height: auto;
+	bottom: 25px;
+	right: 5px;
+	color: #fff;
+	border-radius: 50px;
+	z-index: 100;
+}
+
+.img-fluid-wsp {
+	width: 80% !important;
+}
+
+.number-gif {
+	color: #ffffff;
+	background: #00c8ff;
+	border-color: #00c8ff;
+	font-weight: bold;
+	display: block;
+}
+
+.KV-Desktop-dos {
+	margin-top: 7.2rem !important;
+}
+
+.number-gif:hover {
+  	color: #ffffff;
+}
+
+.tooltip > .tooltip-inner {
+  	width: 100% !important;
+  	background: transparent !important;
+}
+
+.bs-tooltip-auto[x-placement^="left"] .arrow::before,
+.bs-tooltip-left .arrow::before {
+  	border-left-color: transparent !important;
+}
+
+.gif-phone-home {
+	/* bottom: 110px !important; */
+    right: 2px !important;
+}
+
+.btn-whatsapp-home {
+	width: 65px !important;
+	height: 70px !important;
+}
+
+/* -----------------------------------------------------------------card article se envia a todo colombia------------------------------------- */
+.content-banner img {
+    display: block;
+}
+
+.content-banner{
+    max-width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 5px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 12%);
+    color: #00377D;
+    text-align: center;
+    font-size: 0.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+}
+
+.content-banner:hover{
+    background-color: rgb(243, 243, 243);
+    -webkit-box-shadow: 0 5px 5px 0 rgb(0 0 0 / 12%);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.185);
+    transition: 500ms;
+}
+
+.group__sim {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.content-banner .group__sim p {
+    padding-top: 10px;
+    font-size: small;
+}
+
+.content-banner .group__sim img {
+    width: 30px;
+}
+
+.content-banner p {
+    margin: 0;
+    padding: 0;
+}
+
+.content-banner .group-info img:first-child {
+    width: 40px;
+}
+.content-banner .group-info p {
+    padding: 0 5px;
+}
+
+.content-banner .group-info img:nth-child(2) {
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+.content-banner .group-info .text-point {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.content-banner ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content-banner .group-info .text-point .point {
+    margin: 0px 0px 0px 25px;
+}
+
+.content-banner .group-location img {
+    width: 30px;
+}
+
+.content-banner .group-location p {
+    padding-top: 10px;
+    font-size: small;
+}
+
+.content-express {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.content-banner .group-info img:nth-child(2) {
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+.group-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    -webkit-box-flex: 6;
+    -ms-flex-positive: 6;
+    flex-grow: 6;
+    text-transform: uppercase;
+}
+
+.group-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    text-transform: uppercase;
+}
+
+/* ----------------------------------------------------------------------------- Footer ------------------------------------------------------- */
+
+footer {
+	background: rgb(2, 0, 36);
+	background: -webkit-gradient(linear,left top,right top,from(rgba(2, 0, 36, 1)),to(rgba(9, 9, 121, 1)));
+	background: -o-linear-gradient(left,rgba(2, 0, 36, 1) 0%,rgba(9, 9, 121, 1) 100%);
+	background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%,rgba(9, 9, 121, 1) 100%);
+	position: absolute;
+	width: 100%;
+	height: 226px;
+}
+
+.text-footer {
+	color: #ffffff;
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+
+.span-footer {
+  	color: #00c8ff;
+}
+
+.span-footer:hover {
+  	color: #ffbe00;
+}
+
+.img-footer {
+	margin-top: 4px !important;
+	width: 11%;
+	margin: 0 auto;
+	display: block;
+}
+
+.ul-footer {
+	margin: 0;
+	padding: 0;
+}
+
+.gmail-logo {
+	margin-top: 3px;
+	width: 11%;
+}
+
+/*-----------------------------------------Tabs---------------------------------------------------*/
+
+ul.tabs {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+ul.tabs li {
+  	width: 35%;
+}
+
+.btn-tab {
+  	padding: 10px;
+}
+
+ul.tabs li a {
+	color: #0a316a;
+	font-weight: 600;
+	font-family: "Cronos Pro";
+	text-decoration: none;
+	font-size: 1.4em;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	border: 1px solid #00377d;
+	border-radius: 50px;
+}
+
+ul.btn-tab li a:active {
+	background: #ffbe00;
+	color: #ffffff;
+}
+
+ul.tabs li a:hover {
+	background: #ffbe00;
+	border: none;
+	color: #fff;
+}
+
+.img-formulario{
+	background-image: url('../static/images/img-formulario.jpg');
+	background-size: cover;
+}
+.img-formulario img {
+	width: 120%;
+	height: 100%;
+	margin-left: -11.5%;
+	border-radius:15px 0px 0px 15px ;
+}
+
+#main-img-modal-id{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+#img-modal-id{
+	width:140%;
+	height:100%;
+	background-image: url('../static/images/img-formulario.jpg');
+	background-size: cover;
+	background-position-x:center ;
+	margin-left:-100px;
+}
